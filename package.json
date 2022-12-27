@@ -1,0 +1,33 @@
+{
+  "name": "hbs",
+  "version": "0.0.0",
+  "private": true,
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "npx nodemon --exec node -r dotenv/config ."
+  },
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "bcrypt": "^5.1.0",
+    "compression": "^1.7.4",
+    "express": "~4.16.1",
+    "express-session": "^1.17.3",
+    "knex": "^2.3.0",
+    "mongoose": "^6.7.3",
+    "mysql": "^2.18.1",
+    "normalizr": "^3.6.1",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "socket.io": "^4.5.2",
+    "uuid": "^9.0.0",
+    "winston": "^3.8.2",
+    "yargs": "^17.6.2"
+  },
+  "devDependencies": {
+    "0x": "^5.4.1",
+    "autocannon": "^7.10.0",
+    "dotenv": "^16.0.3"
+  }
+}
